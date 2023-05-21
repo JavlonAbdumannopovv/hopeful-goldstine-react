@@ -1,0 +1,154 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.employee_list{
+  width:100%;
+  min-height:300px;
+}
+
+
+
+/* NOTE - LIST MAIN */
+.list_header li{
+  padding:25px 20px;
+  display:flex;
+  justify-content:space-between;
+  background:#e2e3f3;
+  border-radius:3px;
+}
+
+.list_header li p{  
+  font-size:17px;
+  font-weight:500;
+  color:#333996;
+  cursor:pointer;
+  transition:all .3s ease;
+}
+
+.list_header li p:hover{  
+  color:rgb(100, 100, 100);
+}
+
+
+.header_name{
+  width:18%;
+}
+
+.header_email{
+  width:22%;
+}
+
+.header_number{
+  width:12%;
+}
+
+.header_department{
+  width:9%;
+}
+
+.header_actions{
+  width:10%;
+}
+
+
+/* NOTE - LIST MAIN */
+.list_main li{
+  width:100%;
+  padding:30px 25px;
+  display:flex;
+  justify-content:space-between;
+  border-top:1px solid rgb(221, 220, 220);
+  cursor:pointer;
+  transition:all .2s ease;
+}
+
+.list_main li:hover{
+  background:lightyellow;
+}
+
+.list_main li p{
+  font-size:16px;
+  font-weight:400;
+  color:rgb(114, 104, 104);
+}
+
+
+.list_name{
+  width:25%;
+}
+
+.list_email{
+  width:28% !important;
+}
+
+.list_phone{
+  width:20%;
+}
+
+.list_departament{
+  width:15%;
+}
+
+.list_actions{
+  width:10% !important;
+}
+
+.list_actions i{
+  font-size:25px;
+  padding:7px 10px;
+  border-radius:5px;
+  cursor:pointer;
+  transition:all .3s ease;
+}
+
+.list_actions .bx-pencil{
+  color:blue;
+  background:#e2e3f3;
+  margin:0 10px 0 0;
+}
+
+.list_actions .bx-pencil:hover{
+  background:#f2f2fa;
+
+}
+
+.list_actions .bx-x{
+  color:red;
+  background:#fee0e3;
+}
+
+.list_actions .bx-x:hover{
+  background:#faeeef;
+}
+
+/* NOTE - LIST FOOTER */
+.list_footer{
+  border-top:1px solid rgb(221, 220, 220);
+}
+.list_footer p{
+  font-size:20px;
+  padding:25px 0 0 25px;
+}
+
+.list_footer span{
+  margin:0 0 0 20px;
+  padding:2px 15px;
+  border:1px solid rgb(221, 220, 220);
+  border-radius:5px;
+  cursor:pointer;
+  transition:all .4 ease;
+}
+
+.list_footer span:hover{
+  border:1px solid #000;
+  background:#e2e3f3;
+}
+
+.rowBtn.active{
+  border:1px solid #000;
+  background:#e2e3f3;
+}
